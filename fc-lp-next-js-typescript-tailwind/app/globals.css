@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #071a37;
+  --deep: #0b2a55;
+  --gold: #facc15;
+  --gold-dark: #eab308;
+  --gold-soft: #fef3c7;
+}
+
+@theme {
+  --color-navy: var(--navy);
+  --color-deep: var(--deep);
+  --color-yellow: var(--gold);
+  --color-yellow-dark: var(--gold-dark);
+  --color-yellow-soft: var(--gold-soft);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-family-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #0f172a;
+  font-family:
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--navy);
+}
