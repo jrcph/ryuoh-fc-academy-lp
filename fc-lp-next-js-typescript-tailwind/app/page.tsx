@@ -1,5 +1,6 @@
 const LINE_URL = "https://lin.ee/pC9uPug";
 const INSTAGRAM_URL = "https://www.instagram.com/ryuoh_socceracademy";
+const NOTE_URL = "https://note.com/ryuohfc";
 const HERO_IMAGE_SRC = "/hero-photo.png?v=20260523";
 const CTA_IMAGE_SRC = "/cta-photo.png?v=20260523";
 
@@ -296,6 +297,23 @@ export default function Home() {
             <p className="mt-3 text-lg leading-8 text-navy/78">
               自分に足りない部分に気づき、成長につなげる機会を大切にしています。
             </p>
+          </div>
+          <div className="mt-4 rounded-lg border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+            <p className="text-sm font-black uppercase tracking-[0.16em] text-gold">
+              note
+            </p>
+            <h3 className="mt-3 text-2xl font-black leading-tight text-navy">
+              活動の様子や考え方を発信しています
+            </h3>
+            <p className="mt-3 text-lg leading-8 text-slate-700">
+              日々の活動、選手の成長、アカデミーで大切にしていることをnoteでもお届けします。
+            </p>
+            <a
+              href={NOTE_URL}
+              className="mt-5 inline-flex min-h-12 w-full items-center justify-center rounded-full border border-navy/15 bg-navy px-5 py-3 text-center text-base font-bold text-white transition hover:-translate-y-0.5 hover:bg-deep focus:outline-none focus:ring-4 focus:ring-navy/20 sm:w-auto"
+            >
+              noteで情報を見る
+            </a>
           </div>
         </div>
       </section>
